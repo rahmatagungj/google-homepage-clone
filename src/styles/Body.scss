@@ -32,5 +32,13 @@
     padding: 10px;
     font-weight: 300;
     background-color: rgb(246, 255, 255);
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+    &:hover {
+      border: 1px solid rgb(165, 165, 165);
+    }
+    &:focus {
+      outline: none;
+    }
   }
 }
