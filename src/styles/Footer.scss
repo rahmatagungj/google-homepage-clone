@@ -1,0 +1,38 @@
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #f2f2f2;
+  ul li {
+    list-style: none;
+  }
+  h3 {
+    font-size: 0.9em;
+    font-weight: 100;
+    color: rgb(107, 107, 107);
+  }
+  .country {
+    padding: 20px;
+  }
+}
+
+.foot {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.credit,
+.docs {
+  font-size: 0.8em;
+  color: rgb(107, 107, 107);
+  ul li {
+    display: inline-block;
+    margin: 0px 3px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+}
